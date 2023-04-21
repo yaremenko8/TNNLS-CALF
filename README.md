@@ -10,6 +10,14 @@ This repository contains the code for reproducing the experiments for the paper 
 * **[Run experiments](#run-experiments)**
   * [SARSA](#sarsa)
   * [DQN](#dqn)
+  * [SDPG](#sdpg)
+  * [DDPG](#ddpg)
+  * [RPO](#rpo)
+  * [CALF Stabilizng Policy](#calf-stabilizing-policy)
+  * [CALF](#calf)
+  * [MPC with horizon 2](#mpc-with-horizon-2)
+  * [MPC with horizon 5](#mpc-with-horizon-5)
+  * [MPC with horizon 8](#mpc-with-horizon-8)
     
 
 ## Setting the environment
@@ -184,8 +192,6 @@ PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py controller=rpo system=cartpole
 PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py controller=rpo system=inv_pendulum +seed=1
 
 ```
-
-TODO CARTPOLE!!!!!!!!!!!!!!!
 
 ### CALF Stabilizing Policy
 ```

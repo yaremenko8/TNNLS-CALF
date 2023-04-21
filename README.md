@@ -225,45 +225,45 @@ PYTHONPATH=$(pwd)/src-1 python preset_cartpole.py system=cartpole controller=cal
 
 ### MPC with horizon 2
 ```
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=2tank controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=2
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=2tank controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=2 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=3wrobot_ni controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=2
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=3wrobot_ni controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=2 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=inv_pendulum controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=2
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=inv_pendulum controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=2 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=kin_point controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=2
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=kin_point controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=2 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=lunar_lander controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=2
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=lunar_lander controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=2 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=cartpole controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=2
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=cartpole controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=2 scenario.N_episodes=1
 ```
 
 ### MPC with horizon 5
 ```
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=2tank controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=5
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=2tank controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=5 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=3wrobot_ni controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=5
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=3wrobot_ni controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=5 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=inv_pendulum controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=5
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=inv_pendulum controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=5 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=kin_point controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=5
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=kin_point controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=5 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=lunar_lander controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=5
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=lunar_lander controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=5 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=cartpole controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=5
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=cartpole controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=5 scenario.N_episodes=1
 ```
 
 ### MPC with horizon 8
 ```
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=2tank controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=8
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=2tank controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=8 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=3wrobot_ni controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=8
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=3wrobot_ni controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=8 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=inv_pendulum controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=8
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=inv_pendulum controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=8 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=kin_point controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=8
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=kin_point controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=8 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=lunar_lander controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=8
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=lunar_lander controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=8 scenario.N_episodes=1
 
-PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=cartpole controller=mpc initial_conditions=ic_2tank_stochastic +seed=1 controller.actor.predictor.prediction_horizon=8
+PYTHONPATH=$(pwd)/src-2 python preset_endpoint.py system=cartpole controller=mpc +seed=1 controller.actor.predictor.prediction_horizon=8 scenario.N_episodes=1
 ```
